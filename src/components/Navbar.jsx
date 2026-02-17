@@ -21,11 +21,11 @@ const Navbar = () => {
     const resumes = [
         {
             name: 'Rushikesh Sutar',
-            file: '/resumes/Rushikesh_Resume.pdf',
+            file: '/resumes/Rushikesh_CV.pdf',
         },
         {
             name: 'Pranali Patil',
-            file: '/resumes/Pranali_Resume.pdf',
+            file: '/resumes/Pranali_CV.pdf',
         },
     ];
 
