@@ -58,7 +58,7 @@ const Hero = () => {
                     variants={itemVariants}
                 >
                     <span className="gradient-text">
-                        Hi, I'm Rushikesh Sutar
+                        Hi, I'm Rushikesh 
                     </span>
                     <br />
                     <span className="text-text-heading">
