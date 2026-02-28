@@ -33,35 +33,6 @@ const Contact = () => {
                 },
             ],
         },
-        {
-            name: 'Pranali Patil',
-            contacts: [
-                {
-                    icon: Mail,
-                    label: 'Email',
-                    value: 'pranalippatil03@gmail.com',
-                    link: 'mailto:pranalippatil03@gmail.com',
-                },
-                {
-                    icon: Linkedin,
-                    label: 'LinkedIn',
-                    value: 'Pranali Patil',
-                    link: 'https://www.linkedin.com/in/pranali-patil-63ab7326b/',
-                },
-                {
-                    icon: Github,
-                    label: 'GitHub',
-                    value: '@pranali',
-                    link: 'https://github.com/pranali0315',
-                },
-                {
-                    icon: Phone,
-                    label: 'Phone',
-                    value: '+91-8080956933',
-                    link: 'tel:8080956933',
-                },
-            ],
-        },
     ];
 
     return (
@@ -89,17 +60,17 @@ const Contact = () => {
                         Let's Collaborate
                     </h3>
                     <p className="text-text-body leading-relaxed max-w-3xl mx-auto">
-                        We're always excited to discuss new projects, innovative ideas, or opportunities
+                        I'm always excited to discuss new projects, innovative ideas, or opportunities
                         to be part of your vision. Feel free to reach out through any of the channels below.
                     </p>
                 </motion.div>
 
                 {/* Two Contact Information Blocks */}
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 gap-8 justify-items-center">
                     {contactData.map((person, personIndex) => (
                         <motion.div
                             key={personIndex}
-                            className="space-y-6"
+                            className="space-y-6 mx-auto max-w-md"
                             initial={{ opacity: 0, x: personIndex === 0 ? -50 : 50 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}

@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                     {/* Brand */}
                     <div className="text-center md:text-left">
-                        <h3 className="text-xl font-bold gradient-text mb-2">ModelMinds</h3>
+                        <h3 className="text-xl font-bold gradient-text mb-2">Rushikesh Sutar</h3>
                         <p className="text-text-muted text-sm">
                             Building intelligent systems with AI & ML
                         </p>
@@ -39,7 +39,7 @@ const Footer = () => {
                     {/* Copyright */}
                     <div className="text-center md:text-right">
                         <p className="text-text-muted text-sm">
-                            © {currentYear} ModelMinds. All rights reserved.
+                            © {currentYear} Rushikesh Sutar. All rights reserved.
                         </p>
                         <p className="text-text-muted text-xs mt-1">
                             Built with React & Tailwind CSS

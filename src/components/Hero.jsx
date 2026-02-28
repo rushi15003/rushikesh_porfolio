@@ -50,11 +50,6 @@ const Hero = () => {
                         <Code2 className="w-5 h-5 text-accent-soft" />
                         <span className="text-text-body text-sm font-medium">Rushikesh</span>
                     </div>
-                    <span className="text-text-muted">•</span>
-                    <div className="flex items-center space-x-2">
-                        <Code2 className="w-5 h-5 text-accent-primary" />
-                        <span className="text-text-body text-sm font-medium">Pranali</span>
-                    </div>
                 </motion.div>
 
                 {/* Main headline */}
@@ -63,11 +58,11 @@ const Hero = () => {
                     variants={itemVariants}
                 >
                     <span className="gradient-text">
-                        We Are ModelMinds
+                        Hi, I'm Rushikesh Sutar
                     </span>
                     <br />
                     <span className="text-text-heading">
-                        A Collaborative AI Team of Pranali & Rushikesh
+                        An AI Developer building intelligent systems.
                     </span>
                 </motion.h1>
 
@@ -76,7 +71,7 @@ const Hero = () => {
                     className="text-lg sm:text-xl md:text-2xl text-text-body max-w-3xl mx-auto mb-12 leading-relaxed"
                     variants={itemVariants}
                 >
-                    We design, train, and deploy AI-driven solutions that solve real-world problems.
+                        I design, train, and deploy AI-driven solutions that solve real-world problems.
                 </motion.p>
 
                 {/* CTA Buttons */}
@@ -100,7 +95,7 @@ const Hero = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        <span>Contact Us</span>
+                        <span>Contact Me</span>
                     </motion.button>
                 </motion.div>
             </motion.div>

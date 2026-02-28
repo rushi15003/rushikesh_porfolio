@@ -6,7 +6,7 @@ const Experience = () => {
     const experiences = [
         {
             company: 'AHRC, IIT Bhubaneswar',
-            role: 'AI Research Interns',
+            role: 'AI Research Intern',
             duration: 'Jan 2026 - Present',
             achievements: [
                 'Developed novel conformer architectures for ASR systems for transcription of noisy speech',
@@ -15,7 +15,7 @@ const Experience = () => {
         },
         {
             company: 'Clevrr AI',
-            role: 'AI Interns',
+            role: 'AI Intern',
             duration: 'Nov 2025 - Jan 2026',
             achievements: [
                 'Built and deployed Agentic AI workflows for real-time data insights',
@@ -25,7 +25,7 @@ const Experience = () => {
         },
         {
             company: 'EdTech Society, IIT Bombay',
-            role: 'Data Analyst Interns',
+            role: 'Data Analyst Intern',
             duration: 'June 2025 - Aug 2025',
             achievements: [
                 'Conducted research on time-series forecasting using deep learning models',

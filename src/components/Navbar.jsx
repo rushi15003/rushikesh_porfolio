@@ -23,10 +23,6 @@ const Navbar = () => {
             name: 'Rushikesh Sutar',
             file: 'https://drive.google.com/file/d/1cv1fCU0pC-d_qFkG_uy-K5OXGcowxrcB/view?usp=sharing',
         },
-        {
-            name: 'Pranali Patil',
-            file: 'https://drive.google.com/file/d/1hSMmMaOgeN_foI73-M-nwvuUcNl-9s7U/view?usp=sharing',
-        },
     ];
 
     useEffect(() => {
@@ -60,7 +56,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <a href="#home" className="flex items-center space-x-2">
-                        <span className="text-2xl font-bold gradient-text">ModelMinds</span>
+                        <span className="text-2xl font-bold gradient-text">Rushikesh Sutar</span>
                     </a>
 
                     {/* Desktop Navigation */}
@@ -88,7 +84,7 @@ const Navbar = () => {
                                 whileTap={{ scale: 0.95 }}
                             >
                                 <Download className="w-4 h-4" />
-                                <span className="text-sm font-medium">Resumes</span>
+                                <span className="text-sm font-medium">Resume</span>
                                 <ChevronDown className={`w-4 h-4 transition-transform ${isResumeDropdownOpen ? 'rotate-180' : ''}`} />
                             </motion.button>
 

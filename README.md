@@ -1,11 +1,11 @@
-# ModelMinds Portfolio Website
+# Personal Portfolio Website
 
 A modern, premium portfolio website showcasing AI and Machine Learning projects, research, and expertise. Built with React, Tailwind CSS, and Framer Motion.
 
-## 👥 Team
+## � About
 
 - **Rushikesh Sutar** - AI & ML Engineering Student
-- **Pranali Patil** - AI & ML Engineering Student
+
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ A modern, premium portfolio website showcasing AI and Machine Learning projects,
 - **Premium UI Components**: Using Aceternity UI, shadcn/ui, and Material Tailwind
 - **Sections**:
   - Hero with animated background
-  - About Us with profile cards
+  - About Me with profile card
   - Experience timeline
   - Skills showcase
   - Projects gallery
@@ -67,7 +67,7 @@ The production-ready files will be in the `dist/` directory.
 ## 📁 Project Structure
 
 ```
-Portfolio Website ModelMinds/
+Portfolio Website/
 ├── public/
 │   ├── resumes/          # Resume PDF files
 │   └── favicon.svg
@@ -109,12 +109,12 @@ The website uses an editorial color scheme:
 ### Adding Your Resume
 Place your PDF resume files in the `public/resumes/` directory:
 - `Rushikesh_Resume.pdf`
-- `Pranali_Resume.pdf`
+
 
 ### Adding Profile Images
 Place your profile images in the root directory or update the paths in `src/components/About.jsx`:
 - `Rushikesh_Sutar_Photo.jpg`
-- `pranali_photo_crop.jpeg`
+
 
 ### Updating Content
 Edit the respective component files in `src/components/` to update:
@@ -155,8 +155,8 @@ Feel free to fork this project and customize it for your own portfolio!
 ## 📧 Contact
 
 - **Rushikesh Sutar**: rushisutar15@gmail.com
-- **Pranali Patil**: pranalippatil03@gmail.com
+
 
 ---
 
-Built with ❤️ by ModelMinds Team
+Built with ❤️ by Rushikesh Sutar

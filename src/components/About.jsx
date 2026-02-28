@@ -14,16 +14,6 @@ const About = () => {
             github: 'https://github.com/rushi15003',
             image: '/Rushikesh_Sutar_Photo.jpg',
         },
-        {
-            name: 'Pranali Patil',
-            role: 'AI & ML Engineering Student',
-            initials: 'PP',
-            description: 'Dedicated to advancing deep learning techniques and large language model applications. Specializes in fine-tuning LLMs and developing practical AI solutions that make a difference.',
-            specializations: ['NLP', 'Machine Learning', 'Generative AI', 'AI Applications', 'RAG'],
-            email: 'pranalippatil03@gmail.com',
-            github: 'https://github.com/pranali0315',
-            image: '/pranali_photo_crop.jpeg',
-        },
     ];
 
     const sectionVariants = {
@@ -77,19 +67,19 @@ const About = () => {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                        <span className="gradient-text">About Us</span>
+                        <span className="gradient-text">About Me</span>
                     </h2>
                     <p className="text-text-body text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-                        Meet the passionate AI and Machine Learning students driving innovation through collaboration
+                        Passionate AI and Machine Learning student driving innovation through hands-on projects and research.
                     </p>
                 </motion.div>
 
                 {/* Profile Cards */}
-                <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+                <div className="grid grid-cols-1 gap-8 lg:gap-12 justify-items-center">
                     {profiles.map((profile, index) => (
                         <motion.div
                             key={index}
-                            className="glass-card p-8 md:p-10 rounded-3xl group hover:scale-[1.03] transition-all duration-300"
+                            className="glass-card p-8 md:p-10 rounded-3xl group hover:scale-[1.03] transition-all duration-300 mx-auto max-w-md"
                             variants={cardVariants[index === 0 ? 'left' : 'right']}
                             initial="hidden"
                             whileInView="visible"
